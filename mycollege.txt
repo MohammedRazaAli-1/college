@@ -171,3 +171,23 @@ String url = "jdbc:mysql://localhost:3307/productsalesdb";
 String user = "root";
 String password = ""; // or your MySQL root password
 
+
+Step 4: Compile and Run Java Program in CMD
+
+
+how to run this program 
+1. Navigate to the folder where SalesReport.java is saved:
+
+cd path\to\your\java\file
+
+
+2. Compile using:
+
+javac -cp ".;path\to\mysql-connector-java-8.0.xx.jar" SalesReport.java
+
+
+3. Run using:
+
+java -cp ".;path\to\mysql-connector-java-8.0.xx.jar" SalesReport
+
+
